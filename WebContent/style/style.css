@@ -1,0 +1,79 @@
+body {
+	background: 
+		url(foto1.jpg);
+	
+}
+.form-wrapper {
+/* 	width: 400px; */
+	max-width: 500px;
+	min-width: 100px;
+	padding: 15px;
+	margin: 10px auto 20px auto;
+	background: #444;
+	background:rgb(255, 255, 204);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 20px;
+	-moz-box-shadow: 0 1px 1px rgb(255, 204, 153) inset, 0 1px 0
+		rgba(255, 255, 255, .2);
+	-webkit-box-shadow: 0 1px 1px rgb(255, 255, 153) inset, 0 1px 0
+		rgba(255, 255, 255, .2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0
+		rgba(255, 255, 255, .2);
+}
+
+
+.search-field {
+	max-width: 300px;
+	min-width: 100px;
+	padding: 15px;
+	margin: 30px auto 40px auto;
+}
+
+.validation-field {
+	max-width: 550px;
+	min-width: 100px;
+	padding: 15px;
+	margin: 10px auto 20px auto;
+}
+
+.result {
+	width: 20%;
+  max-width: 20%;
+  height: 30%;
+}
+
+.fsize {
+	color: 	#001a1a;
+
+	font-size: 17px;
+}
+
+.col-name {
+	font-style: oblique;
+}
+
+.col-value {
+	font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+.valid {
+	color: green;
+}
+
+.btn{
+
+	background: transparent;
+	color: #ff0000;
+	border:0;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+}
